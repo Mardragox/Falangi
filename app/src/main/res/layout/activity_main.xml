@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#aae5a4"
+    android:background="@color/r34Color"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Quest"
+        android:text="@string/quest"
         android:textColor="@color/white"
         android:background="#099"
         android:textSize="20dp"
@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/teal_200"
-            android:layout_margin="22dp"
+            android:layout_margin="@dimen/marginesButton"
 
             android:onClick="GoodButton"
              />
@@ -43,7 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#ffffff"
-            android:layout_margin="22dp"
+            android:layout_margin="@dimen/marginesButton"
 
             android:onClick="WrongButton"
             />
@@ -52,7 +52,7 @@
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="22dp"
+            android:layout_margin="@dimen/marginesButton"
             android:backgroundTint="#772637"
 
             android:onClick="GoodButton"
@@ -69,7 +69,7 @@
             android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="22dp"
+            android:layout_margin="@dimen/marginesButton"
             android:backgroundTint="#825"
 
             android:onClick="GoodButton"
@@ -79,7 +79,7 @@
             android:id="@+id/button8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="22dp"
+            android:layout_margin="@dimen/marginesButton"
             android:backgroundTint="#ff0000"
 
             android:onClick="WrongButton"
@@ -89,7 +89,7 @@
             android:id="@+id/button9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="22dp"
+            android:layout_margin="@dimen/marginesButton"
 
 
             android:onClick="GoodButton"

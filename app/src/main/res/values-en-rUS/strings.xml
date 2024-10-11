@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Game in Flags</string>
+    <string name="quest">Choose which colors aren\'t in Polish flag.</string>
+    <string name="afterQuest">This is Poland flag</string>
+    <string name="info">"This color is in Polish flag "</string>
+</resources>

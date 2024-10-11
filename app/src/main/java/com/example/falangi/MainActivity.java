@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void WrongButton(View view) {
-        Toast.makeText(this, R.string.Info, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, R.string.info, Toast.LENGTH_SHORT).show();
     }
 
     public void GoodButton(View view) {
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         view.setVisibility(View.INVISIBLE);
         Counter++;
         if (Counter == 4){
-            textViewPolecenie.setText(R.string.AfterQuest);
+            textViewPolecenie.setText(R.string.afterQuest);
         }
     }
 }
