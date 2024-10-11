@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Falangi</string>
+    <string name="Quest">wybierz których kolorów nie ma w fladze Polski</string>
+    <string name="AfterQuest">To jest flaga Polski</string>
+    <string name="Info">Ten kolor jest we fladze Polski</string>
 </resources>
